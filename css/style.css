@@ -87,7 +87,7 @@ figcaption {
 }
 
 .col-3 {
-  
+
 }
 
 [class*="col-"] {
@@ -101,4 +101,12 @@ figcaption {
   visibility: hidden;
   height: 0;
   line-height: 0;
+}
+
+.first {
+  margin-left: 0
+}
+
+img, video, audio {
+  max-width: 100%
 }
