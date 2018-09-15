@@ -89,3 +89,16 @@ figcaption {
 .col-3 {
   
 }
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
